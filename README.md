@@ -83,7 +83,3 @@ Esse endpoint realiza a movimentação de um elemento dentro de uma lista.
   "sourceIndex": 2,
   "targetIndex": 0
 }
-
-
-📜 Licença
-Este projeto foi desenvolvido apenas para fins educacionais como parte do curso
