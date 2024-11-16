@@ -57,6 +57,7 @@ O projeto está dividido nos seguintes módulos principais:
 
      
 🖥️ Endpoints da API
+
 📋 Listar todos os jogos
 GET /games
 
@@ -68,21 +69,10 @@ GET /lists/{listId}/games
 
 📋 Mover posição de um jogo em uma lista
 POST /lists/{listId}/replacement
-
-
-📂 Exemplo de Payload
-## Endpoints
-
-### POST `/lists/{listId}/replacement`
-
 Esse endpoint realiza a movimentação de um elemento dentro de uma lista.
 
-#### Requisição:
-4.   ```bash
-      {
-        "sourceIndex": 2,
-        "targetIndex": 0
-      }
-.
+---
+
 📜 Licença
+
 Este projeto foi desenvolvido apenas para fins educacionais, baseado no curso ministrado por Nélio Alves.
