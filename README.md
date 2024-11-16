@@ -72,6 +72,7 @@ POST /lists/{listId}/replacement
 
 📂 Exemplo de Payload
 POST /lists/{listId}/replacement
+   
    {
   "sourceIndex": 2,
   "targetIndex": 0
