@@ -71,12 +71,18 @@ POST /lists/{listId}/replacement
 
 
 📂 Exemplo de Payload
-POST /lists/{listId}/replacement
-   
-   {
+## Endpoints
+
+### POST `/lists/{listId}/replacement`
+
+Esse endpoint realiza a movimentação de um elemento dentro de uma lista.
+
+#### Requisição
+```bash
+{
   "sourceIndex": 2,
   "targetIndex": 0
-   }
+}
 
 
 📜 Licença
