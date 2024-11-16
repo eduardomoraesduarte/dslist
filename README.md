@@ -77,9 +77,12 @@ POST /lists/{listId}/replacement
 
 Esse endpoint realiza a movimentação de um elemento dentro de uma lista.
 
-#### Requisição
-```bash
-{
-  "sourceIndex": 2,
-  "targetIndex": 0
-}
+#### Requisição:
+4.   ```bash
+      {
+        "sourceIndex": 2,
+        "targetIndex": 0
+      }
+.
+📜 Licença
+Este projeto foi desenvolvido apenas para fins educacionais, baseado no curso ministrado por Nélio Alves.
