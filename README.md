@@ -50,4 +50,33 @@ O projeto está dividido nos seguintes módulos principais:
    ```bash
    git clone https://github.com/eduardomoraesduarte/dslist.git
    cd dslist
+   
+3. Executar o projeto
+   - Importe o projeto como um projeto Maven.
+   - Execute a classe principal DslistApplication.
 
+     
+🖥️ Endpoints da API
+📋 Listar todos os jogos
+GET /games
+
+📋 Detalhar um jogo específico
+GET /games/{id}
+
+📋 Listar jogos de uma lista específica
+GET /lists/{listId}/games
+
+📋 Mover posição de um jogo em uma lista
+POST /lists/{listId}/replacement
+
+
+📂 Exemplo de Payload
+POST /lists/{listId}/replacement
+   {
+  "sourceIndex": 2,
+  "targetIndex": 0
+   }
+
+
+📜 Licença
+Este projeto foi desenvolvido apenas para fins educacionais como parte do curso
