@@ -1,6 +1,6 @@
 # 🕹️ DSList - Catálogo de Jogos
 
-Bem-vindo ao **DSList**, um projeto desenvolvido durante um intensivão com o professor **Nélio Alves**, da plataforma [DevSuperior](https://devsuperior.com.br/). Este projeto consiste em uma API para gerenciar uma lista de jogos, permitindo organizar e visualizar informações sobre os games de forma prática e eficiente.
+Este projeto consiste em uma API para gerenciar uma lista de jogos, permitindo organizar e visualizar informações sobre os games de forma prática e eficiente.
 
 ---
 
@@ -75,4 +75,4 @@ Esse endpoint realiza a movimentação de um elemento dentro de uma lista.
 
 📜 Licença
 
-Este projeto foi desenvolvido apenas para fins educacionais, baseado no curso ministrado por Nélio Alves.
+Este projeto foi desenvolvido de forma autoral, com base nos conceitos e orientações apresentados durante um programa conduzido pelo professor Nélio Alves.
